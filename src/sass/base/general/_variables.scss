@@ -3,6 +3,7 @@ $colors: (
   'primary-transp': rgba(34, 53, 111, 0.5),
   'main': #62d0df,
   'dots': #e9b730,
+  'active': #fab63e,
 );
 
 @function getColor($key) {

@@ -1,2 +1,8 @@
 @import './logo-elem';
 @import './logo-mod';
+
+.logo {
+  @include main-font(700, 24px, calc(34 / 24), -0.035em, capitalize);
+
+  color: #62d0df;
+}

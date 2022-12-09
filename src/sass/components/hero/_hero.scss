@@ -1,2 +1,19 @@
 @import './hero-elem';
 @import './hero-mod';
+
+.hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  overflow: hidden;
+
+  padding-top: 241px;
+  padding-bottom: 75px;
+
+  z-index: 10;
+}
+
+.hero .container {
+  width: 1130px;
+}
